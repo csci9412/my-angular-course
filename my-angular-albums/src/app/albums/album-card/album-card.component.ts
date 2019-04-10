@@ -14,7 +14,6 @@ export class AlbumCardComponent implements OnInit {
   albumClicked: EventEmitter<Album> = new EventEmitter<Album>();
 
   showAlbum() {
-    alert("Album selected: " + this.album.album_name);
     this.albumClicked.emit(this.album);
   }
 
