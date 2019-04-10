@@ -17,30 +17,5 @@ import { ALBUMS } from "./albums/albums.data";
 })
 export class AppComponent {
   title = "My Angular Albums";
-  albumsArray: Album[];
-  numbers: number[];
 
-  titleCounter = 1;
-
-  constructor() {}
-
-  ngOnInit(): void {
-    this.albumsArray = ALBUMS;
-
-    console.log(JSON.stringify(this.albumsArray));
-
-    const intervalId = setInterval(() => {
-      this.titleCounter++;
-
-      this.albumsArray[0].price = this.albumsArray[0].price + 10;
-
-      console.log(this.numbers);
-
-      this.albumsArray.forEach(album => (album.price += 10));
-    }, 2000);
-
-    setTimeout(() => {
-      clearInterval(intervalId);
-    }, 6000);
-  }
 }
