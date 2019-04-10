@@ -13,43 +13,41 @@ export const ALBUMS: Album[] = [
     recording_location: "Studio Barbarosa, Orlando, FL",
     genre: "Pop/Rock",
     duration: "43:18:00",
-    URL: "https://www.allmusic.com/album/dust-mw0002918360",
+    url: "https://www.allmusic.com/album/dust-mw0002918360",
     tracks: [
       {
         id: 1,
         track_number: 1,
-        title: "My Last Mistake",
-        length: "4:30"
+        title: 'My Last Mistake',
+        length: '4:30'
       },
       {
         id: 1,
         track_number: 2,
-        title: "The Cage",
-        length: "3:35"
+        title: 'The Cage',
+        length: '3:35'
       },
       {
         id: 1,
         track_number: 3,
-        title: "Once Dead",
-        length: "3:05"
-      },
+        title: 'Once Dead',
+        length: '3:05'      },
       {
         id: 1,
         track_number: 4,
-        title: "Dust",
-        length: "5:21"
+        title: 'Dust',
+        length: '5:21'
       },
       {
         id: 1,
         track_number: 5,
-        title: "Betray Me",
-        length: "4:04"
-      },
+        title: 'Betray Me',
+        length: '4:04'      },
       {
         id: 1,
         track_number: 6,
         title: "Tore My Heart Out",
-        length: "5:07"
+        length: '5:07'
       },
       {
         id: 1,
@@ -89,7 +87,7 @@ export const ALBUMS: Album[] = [
     recording_location: "Warehouse, Philadelphia, PA",
     genre: "Pop/Rock",
     duration: "47:15:00",
-    URL: "https://www.allmusic.com/album/7800%C2%B0-fahrenheit-mw0000189199",
+    url: "https://www.allmusic.com/album/7800%C2%B0-fahrenheit-mw0000189199",
     tracks: [
       {
         id: 2,
@@ -165,7 +163,7 @@ export const ALBUMS: Album[] = [
     recording_location: "",
     genre: "Pop/Rock",
     duration: "1:33:43",
-    URL: "https://www.allmusic.com/album/the-beatles-white-album-mw0000418113",
+    url: "https://www.allmusic.com/album/the-beatles-white-album-mw0000418113",
     tracks: [
       {
         id: 3,
@@ -361,7 +359,7 @@ export const ALBUMS: Album[] = [
     recording_location: "Abbey Road Studios, London",
     genre: "Pop/Rock",
     duration: "42:54:00",
-    URL:
+    url:
       "https://www.allmusic.com/album/the-dark-side-of-the-moon-mw0000191308",
     tracks: [
       {
@@ -438,7 +436,7 @@ export const ALBUMS: Album[] = [
     recording_location: "Alembic Studios, San Francisco, CA",
     genre: "Pop/Rock",
     duration: "38:07:00",
-    URL: "https://www.allmusic.com/album/aoxomoxoa-mw0000650206",
+    url: "https://www.allmusic.com/album/aoxomoxoa-mw0000650206",
     tracks: [
       {
         id: 5,
@@ -502,7 +500,7 @@ export const ALBUMS: Album[] = [
     recording_location: "Sound City Studios, Van Nuys, CA",
     genre: "Pop/Rock",
     duration: "42:38:00",
-    URL: "https://www.allmusic.com/album/nevermind-mw0000185616",
+    url: "https://www.allmusic.com/album/nevermind-mw0000185616",
     tracks: [
       {
         id: 6,
@@ -590,7 +588,7 @@ export const ALBUMS: Album[] = [
     recording_location: "",
     genre: "Pop/Rock",
     duration: "36:26:00",
-    URL: "https://www.allmusic.com/album/flowers-mw0000195495",
+    url: "https://www.allmusic.com/album/flowers-mw0000195495",
     tracks: [
       {
         id: 7,
@@ -678,7 +676,7 @@ export const ALBUMS: Album[] = [
     recording_location: "Plaza Sound Studios, New York, NY",
     genre: "Pop/Rock",
     duration: "33:25:00",
-    URL: "https://www.allmusic.com/album/blondie-mw0000590317",
+    url: "https://www.allmusic.com/album/blondie-mw0000590317",
     tracks: [
       {
         id: 8,
@@ -760,7 +758,7 @@ export const ALBUMS: Album[] = [
     recording_location: "",
     genre: "Pop/Rock",
     duration: "1:00:22",
-    URL: "https://www.allmusic.com/album/are-you-experienced-mw0000537390",
+    url: "https://www.allmusic.com/album/are-you-experienced-mw0000537390",
     tracks: [
       {
         id: 9,
@@ -878,7 +876,7 @@ export const ALBUMS: Album[] = [
     recording_location: "Rancho Relaxo, CA",
     genre: "Pop/Rock",
     duration: "56:48:00",
-    URL: "https://www.allmusic.com/album/the-brown-album-mw0000023938",
+    url: "https://www.allmusic.com/album/the-brown-album-mw0000023938",
     tracks: [
       {
         id: 10,
@@ -984,7 +982,7 @@ export const ALBUMS: Album[] = [
     recording_location: "Greene Street Recording Studio, New York, NY",
     genre: "Soft Rock, Wagnerian Rock",
     duration: "42:51:00",
-    URL:
+    url:
       "https://www.allmusic.com/album/faster-than-the-speed-of-night-mw0000196124",
     tracks: [
       {
@@ -1055,7 +1053,7 @@ export const ALBUMS: Album[] = [
     recording_location: "",
     genre: "Rock",
     duration: "47:23:00",
-    URL: "https://www.allmusic.com/album/abbey-road-mw0000192938",
+    url: "https://www.allmusic.com/album/abbey-road-mw0000192938",
     tracks: [
       {
         id: 12,
@@ -1173,7 +1171,7 @@ export const ALBUMS: Album[] = [
     recording_location: "",
     genre: "R&B",
     duration: "45:46:00",
-    URL: "https://www.allmusic.com/album/hotter-than-july-mw0000650992",
+    url: "https://www.allmusic.com/album/hotter-than-july-mw0000650992",
     tracks: [
       {
         id: 13,
@@ -1249,7 +1247,7 @@ export const ALBUMS: Album[] = [
     recording_location: "Battery Studios, New York, NY",
     genre: "Pop",
     duration: "47:55:00",
-    URL: "https://www.allmusic.com/album/black-blue-mw0000103961",
+    url: "https://www.allmusic.com/album/black-blue-mw0000103961",
 
     tracks: [
       {
@@ -1344,7 +1342,7 @@ export const ALBUMS: Album[] = [
     recording_location: "House Of Loud, Elmwood Park, NJ",
     genre: "Pop Punk",
     duration: "38:47:00",
-    URL: "https://www.allmusic.com/album/riot%21-mw0000579426",
+    url: "https://www.allmusic.com/album/riot%21-mw0000579426",
     tracks: [
       {
         id: 15,
