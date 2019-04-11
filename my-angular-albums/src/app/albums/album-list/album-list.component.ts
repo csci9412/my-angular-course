@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Album } from '../album.model';
 import { AlbumService } from '../album.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-album-list',
@@ -9,6 +10,7 @@ import { AlbumService } from '../album.service';
   styleUrls: ['./album-list.component.css']
 })
 export class AlbumListComponent implements OnInit {
+  // albums: Observable<Album[]>;
   albums: Album[];
   selectedAlbum: Album = null;
 
@@ -21,13 +23,16 @@ export class AlbumListComponent implements OnInit {
     else
         this.selectedAlbum = album;
   }
-
   getAlbums() {
-    this.albums = this.albumService.getAlbums();
+    this.albumService.getAlbums()
+    .subscribe(
+      albums => this.albums = albums,
+      error => console.log('Error: ', error)
+    );
   }
+
 
   ngOnInit() {
     this.getAlbums();
   }
 }
-
