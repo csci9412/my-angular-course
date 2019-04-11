@@ -28,4 +28,3 @@ export class AlbumCardComponent implements OnInit {
       this.new_price = this.album.price - (this.album.price * .1);
   }
 }
-
