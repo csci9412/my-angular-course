@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, OnInit } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +11,7 @@ import { FriendsComponent } from './friends/friends.component';
 import { FamilyListComponent } from './family-list/family-list.component';
 import { FriendsListComponent } from './friends-list/friends-list.component';
 import { HobbiesListComponent } from './hobbies-list/hobbies-list.component';
+import { NgForOf } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -31,4 +32,15 @@ import { HobbiesListComponent } from './hobbies-list/hobbies-list.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule implements OnInit {
+
+  anumberArray: number [];
+
+  ngOnInit(): void {
+    this.anumberArray = [2,4, 6];
+
+
+
+  }
+
+ }

@@ -11,4 +11,14 @@ export class AppComponent {
   title = "My Angular Albums";
 
   constructor() {}
+
+  anumberArray: number [];
+
+  ngOnInit(): void {
+    this.anumberArray = [2,4, 6];
+
+
+
+  }
+
 }
